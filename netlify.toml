@@ -31,6 +31,6 @@
   package = "@netlify/plugin-sitemap"
 
 [plugins.inputs]
-  changefreq = "monthly"
+  changeFreq = "monthly"
   priority = 0.7
   trailingSlash = true
