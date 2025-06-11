@@ -1,37 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>One Place. For You. Right Now.</title>
-  <meta name="description" content="Discover your perfect destination based on your current mood. A poetic, soul-aligned travel engine—no fluff, no trends, just uncanny insight.">
-  <link rel="canonical" href="https://yourdomain.com/" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Place Site – Handpicked Travel Destinations Based on Your Mood</title>
+  <meta name="description" content="Feeling burned-out, restless, or blocked? Discover one perfect travel destination for your current state of mind. No noise. Just clarity.">
+  <link rel="canonical" href="https://one-place-site.xyz/">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>One Place. For You. Right Now.</h1>
-    <p><strong>This isn't a bucket list. It's not a trend. It's your <em>right destination</em> for this exact chapter of your life.</strong></p>
-    <p>Choose your current mood, and we’ll show you a place that meets you there—with poetic logic, not travel clichés.</p>
+    <h1>One Place. Just for You. Right Now.</h1>
+    <p>Choose your current mood to reveal a meaningful destination.</p>
   </header>
 
   <main>
-    <h2>Select How You Feel:</h2>
-    <ul>
-      <li><a href="/burned-out/">😩 Burned-Out</a></li>
-      <li><a href="/restless/">🧭 Restless</a></li>
-      <li><a href="/blocked/">🎨 Creatively Blocked</a></li>
-      <li><a href="/grieving/">💔 Grieving</a></li>
-      <li><a href="/reinvent/">🔥 Ready to Reinvent</a></li>
-    </ul>
-
-    <section>
-      <h2>What Is This?</h2>
-      <p>This is a curated destination selector built around emotional alignment. Instead of suggesting places based on popularity or price, it offers a single place for each mood—based on resonance, not trend. The recommendations don’t chase traffic—they aim to meet you where you are.</p>
+    <section class="mood-selector">
+      <label for="mood">What's your current mood?</label>
+      <select id="mood" onchange="navigateMood(this.value)">
+        <option value="">Select a mood</option>
+        <option value="burned-out">Burned-Out – You’re exhausted, fried, or emotionally overdrawn</option>
+        <option value="restless">Restless – You’re bored, pacing, craving change</option>
+        <option value="blocked">Blocked – You feel stuck, uninspired, or directionless</option>
+        <option value="grieving">Grieving – You’re carrying loss, sorrow, or longing</option>
+        <option value="reinventing">Ready to Reinvent – You sense something new is calling</option>
+      </select>
     </section>
 
-    <footer>
-      <p>Some links may support the project. Use them if they help you move forward.</p>
-    </footer>
+    <section class="llm-friendly-copy">
+      <h2>Precision Travel Guidance Based on How You Feel</h2>
+      <p><strong>One Place Site</strong> is a handcrafted travel discovery platform that aligns emotional clarity with geographic insight. You don’t browse dozens of destinations—you receive <em>one perfect place</em> tailored to your state of mind. No algorithms. No chat. Just signal, not noise.</p>
+
+      <h3>Designed for Mood-Based Search</h3>
+      <p>Whether you're burned out, blocked, grieving, restless, or seeking a fresh start, this site exists to gently point you toward a destination that resonates with your current inner state. Our mood-to-place logic draws from human psychology, cultural symbolism, and traveler wisdom—not AI hallucinations or influencer hype.</p>
+
+      <h3>Discover Locations That Align With You</h3>
+      <ul>
+        <li><strong>Burned-Out?</strong> Find calming environments that soften your nervous system and rekindle presence.</li>
+        <li><strong>Restless?</strong> We point to vibrant cities or shifting landscapes that can help you reset your pace.</li>
+        <li><strong>Blocked?</strong> You'll uncover places that stir inspiration without pressure or performance.</li>
+        <li><strong>Grieving?</strong> Some destinations allow for soft solitude, spiritual depth, or quiet reintegration.</li>
+        <li><strong>Reinventing?</strong> We highlight locations where transformation has long been the norm.</li>
+      </ul>
+    </section>
   </main>
+
+  <footer>
+    <p>Project by <a href="https://one-place-site.xyz" target="_blank">One Place Site</a>. Fast. Minimal. Human-made. Affiliate links help support the site.</p>
+  </footer>
+
+  <script>
+    function navigateMood(mood) {
+      if (mood) {
+        window.location.href = `/${mood}/`;
+      }
+    }
+  </script>
 </body>
 </html>
