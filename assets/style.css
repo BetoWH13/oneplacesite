@@ -1,75 +1,123 @@
-/* style.css – One Place Site */
+/* style.css */
 
 :root {
-  --bg: #ffffff;
+  --bg: #fdfdfd;
   --text: #1a1a1a;
-  --accent: #004aad;
-  --muted: #777;
-  --font-body: system-ui, sans-serif;
-  --font-heading: Georgia, serif;
+  --accent: #0077cc;
+  --card-bg: #ffffff;
+  --card-hover: #f0f4f8;
+  --border: #e0e0e0;
+  --font: 'Segoe UI', Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 2rem 1rem;
+  font-family: var(--font);
   background-color: var(--bg);
   color: var(--text);
-  font-family: var(--font-body);
   line-height: 1.6;
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 header {
+  text-align: center;
   margin-bottom: 2rem;
 }
 
-h1, h2, h3 {
-  font-family: var(--font-heading);
-  color: var(--accent);
-  margin-top: 0;
-}
-
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-p {
-  margin-bottom: 1.25rem;
+.tagline {
+  font-size: 1.2rem;
+  color: #555;
 }
 
-a {
-  color: var(--accent);
+.intro {
+  text-align: center;
+  max-width: 720px;
+  margin: 1.5rem auto 2rem;
+  font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
   text-decoration: none;
+  color: var(--text);
+  padding: 1.25rem;
+  transition: background-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-a:hover {
-  text-decoration: underline;
+.card:hover {
+  background-color: var(--card-hover);
 }
 
-ul {
-  padding-left: 1.25rem;
+.card .emoji {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
 }
 
-li {
-  margin-bottom: 0.75rem;
+.card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #444;
 }
 
 footer {
   margin-top: 3rem;
-  font-size: 0.875rem;
-  color: var(--muted);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+  color: #777;
   text-align: center;
 }
 
-/* Responsive tweak */
-@media (max-width: 600px) {
-  body {
-    padding: 1.5rem 1rem;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
+footer nav {
+  margin-bottom: 0.5rem;
 }
+
+footer nav a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: var(--accent);
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
+
+.disclaimer {
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
