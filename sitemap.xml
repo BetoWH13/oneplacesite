@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
   <url>
     <loc>https://one-place-site.xyz/</loc>
+    <priority>1.0</priority>
   </url>
+
+  <!-- Burned-Out Section -->
   <url>
     <loc>https://one-place-site.xyz/burned-out/</loc>
   </url>
@@ -15,6 +19,8 @@
   <url>
     <loc>https://one-place-site.xyz/burned-out/valle-de-bravo.html</loc>
   </url>
+
+  <!-- Restless Section -->
   <url>
     <loc>https://one-place-site.xyz/restless/</loc>
   </url>
@@ -25,11 +31,24 @@
     <loc>https://one-place-site.xyz/restless/tbilisi.html</loc>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/restless/skye.html</loc>
+    <loc>https://one-place-site.xyz/restless/isle-of-skye.html</loc>
+  </url>
+
+  <!-- Blocked Section -->
+  <url>
+    <loc>https://one-place-site.xyz/blocked/</loc>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/faq.html</loc>
+    <loc>https://one-place-site.xyz/blocked/essaouira.html</loc>
   </url>
+  <url>
+    <loc>https://one-place-site.xyz/blocked/oaxaca.html</loc>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/blocked/istanbul.html</loc>
+  </url>
+
+  <!-- Legal & Support Pages -->
   <url>
     <loc>https://one-place-site.xyz/privacy.html</loc>
   </url>
@@ -37,7 +56,14 @@
     <loc>https://one-place-site.xyz/tos.html</loc>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/affiliate-disclaimer.html</loc>
+    <loc>https://one-place-site.xyz/affiliate.html</loc>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/faq.html</loc>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/sitemap.html</loc>
   </url>
 </urlset>
+
 
