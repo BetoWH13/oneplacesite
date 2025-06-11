@@ -1,50 +1,64 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="One Place Site helps you discover the single best place in the world to visit based on your current mood or life state. No noise, just clarity." />
-  <link rel="canonical" href="https://one-place-site.xyz/index.html" />
-  <title>One Place Site — Where Should You Really Go?</title>
+  <meta name="description" content="Feeling burned-out, restless, or blocked? One Place Site gives you a handcrafted destination based on your current mood.">
+  <link rel="canonical" href="https://one-place-site.xyz/" />
   <link rel="stylesheet" href="style.css" />
+  <title>One Place Site – Find the Place You Need Right Now</title>
 </head>
 <body>
   <header>
-    <h1>One Place for You, Right Now</h1>
-    <p>Choose your current mood — we’ll reveal the single most resonant place on Earth to go next.</p>
+    <h1>One Place Site</h1>
+    <p class="tagline">Where should you go next? Not someday. Now.</p>
   </header>
 
   <main>
-    <form action="#" method="get" class="mood-selector">
-      <label for="mood">🌍 Pick your current mood or life state:</label>
-      <select id="mood" name="mood" onchange="navigateToMood(this.value)">
-        <option value="">— Select —</option>
-        <option value="/burned-out/index.html">🔥 Burned-Out – You need release, stillness, and soul repair</option>
-        <option value="/restless/index.html">🌪️ Restless – You crave motion, challenge, and new edges</option>
-        <option value="/blocked/index.html">🧱 Blocked – You seek clarity, breakthrough, and silence</option>
-        <option value="/grieving/index.html">🌧️ Grieving – You want healing, quiet beauty, and safe space</option>
-        <option value="/reinvent/index.html">🦋 Ready to Reinvent – You feel the call to emerge, shift, or restart</option>
-      </select>
-    </form>
+    <section class="intro">
+      <p>Every moment in life calls for a different place. Whether you’re burned-out, restless, grieving, or reinventing yourself, there’s a destination waiting for you. No noise. No lists. Just one powerful match per mood—crafted with care and meaning.</p>
+    </section>
+
+    <section class="mood-grid">
+      <h2>Pick Your Current Mood</h2>
+      <div class="cards">
+        <a href="/burned-out/index.html" class="card">
+          <div class="emoji">🔥</div>
+          <h3>Burned-Out</h3>
+          <p>You've given everything. It's time to restore.</p>
+        </a>
+        <a href="/restless/index.html" class="card">
+          <div class="emoji">🌪️</div>
+          <h3>Restless</h3>
+          <p>You're spinning. Go somewhere that grounds and awakens.</p>
+        </a>
+        <a href="/blocked/index.html" class="card">
+          <div class="emoji">🧱</div>
+          <h3>Blocked</h3>
+          <p>Your mind is stuck. Find your flow again.</p>
+        </a>
+        <a href="/grieving/index.html" class="card">
+          <div class="emoji">🌫️</div>
+          <h3>Grieving</h3>
+          <p>Soft places for when you're carrying loss.</p>
+        </a>
+        <a href="/reinventing/index.html" class="card">
+          <div class="emoji">🌱</div>
+          <h3>Ready to Reinvent</h3>
+          <p>New paths. Big shifts. Begin again.</p>
+        </a>
+      </div>
+    </section>
   </main>
 
-  <script>
-    function navigateToMood(path) {
-      if (path) window.location.href = path;
-    }
-  </script>
-
-  <footer class="footer-nav">
+  <footer>
     <nav>
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/faq.html">FAQ</a></li>
-        <li><a href="/privacy.html">Privacy</a></li>
-        <li><a href="/tos.html">Terms</a></li>
-        <li><a href="/disclaimer.html">Affiliate Disclosure</a></li>
-      </ul>
+      <a href="/faq.html">FAQ</a>
+      <a href="/tos.html">Terms</a>
+      <a href="/affiliate-disclaimer.html">Affiliate Disclaimer</a>
+      <a href="/privacy-policy.html">Privacy</a>
     </nav>
-    <p>© 2025 <a href="https://one-place-site.xyz">One Place Site</a>. All rights reserved.</p>
+    <p class="disclaimer">This site may contain affiliate links. © 2025 one-place-site.xyz</p>
   </footer>
 </body>
 </html>
