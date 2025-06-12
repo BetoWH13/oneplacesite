@@ -2,35 +2,13 @@
   publish = "."
   command = ""
 
-[build.environment]
-  NODE_VERSION = "18"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self';"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.viator.com; connect-src 'self'; style-src 'self' 'unsafe-inline';"
     X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Cache-Control = "public, max-age=3600"
     Permissions-Policy = "geolocation=(), microphone=(), camera=()"
-    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
 
-[dev]
-  command = ""
-  port = 8888
-  targetPort = 8888
-  framework = "#custom"
-
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
-
-[plugins.inputs]
-  changeFreq = "monthly"
-  priority = 0.7
-  trailingSlash = true
