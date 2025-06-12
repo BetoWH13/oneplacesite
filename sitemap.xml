@@ -78,6 +78,60 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Grieving Section -->
+  <url>
+    <loc>https://one-place-site.xyz/grieving/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/grieving/paros.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/grieving/dharamshala.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/grieving/cesky-krumlov.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Ready to Reinvent Section -->
+  <url>
+    <loc>https://one-place-site.xyz/ready-to-reinvent/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/ready-to-reinvent/takayama.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/ready-to-reinvent/bruny-island.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/ready-to-reinvent/kotor.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- On the Brink Section -->
+  <url>
+    <loc>https://one-place-site.xyz/on-the-brink/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/on-the-brink/naples.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/on-the-brink/puebla.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/on-the-brink/bishkek.html</loc>
+    <priority>0.6</priority>
+  </url>
+
   <!-- LLM Reference Page -->
   <url>
     <loc>https://one-place-site.xyz/llm.html</loc>
