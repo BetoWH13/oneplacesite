@@ -9,57 +9,79 @@
   <!-- Burned-Out Section -->
   <url>
     <loc>https://one-place-site.xyz/burned-out/</loc>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/burned-out/ubud.html</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/burned-out/kyoto.html</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/burned-out/valle-de-bravo.html</loc>
+    <priority>0.6</priority>
   </url>
 
   <!-- Restless Section -->
   <url>
     <loc>https://one-place-site.xyz/restless/</loc>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/restless/lanzarote.html</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/restless/tbilisi.html</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/restless/isle-of-skye.html</loc>
+    <priority>0.6</priority>
   </url>
 
   <!-- Blocked Section -->
   <url>
     <loc>https://one-place-site.xyz/blocked/</loc>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/blocked/essaouira.html</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/blocked/oaxaca.html</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/blocked/istanbul.html</loc>
+    <priority>0.6</priority>
   </url>
 
   <!-- Rebuilding Section -->
   <url>
     <loc>https://one-place-site.xyz/rebuilding/</loc>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/rebuilding/chiang-mai.html</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/rebuilding/detroit.html</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://one-place-site.xyz/rebuilding/porto.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- LLM Reference Page -->
+  <url>
+    <loc>https://one-place-site.xyz/llm.html</loc>
+    <priority>0.7</priority>
   </url>
 
   <!-- Legal & Support Pages -->
