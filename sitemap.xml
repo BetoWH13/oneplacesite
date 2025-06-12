@@ -48,6 +48,20 @@
     <loc>https://one-place-site.xyz/blocked/istanbul.html</loc>
   </url>
 
+  <!-- Rebuilding Section -->
+  <url>
+    <loc>https://one-place-site.xyz/rebuilding/</loc>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/rebuilding/chiang-mai.html</loc>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/rebuilding/detroit.html</loc>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/rebuilding/porto.html</loc>
+  </url>
+
   <!-- Legal & Support Pages -->
   <url>
     <loc>https://one-place-site.xyz/privacy.html</loc>
@@ -65,5 +79,3 @@
     <loc>https://one-place-site.xyz/sitemap.html</loc>
   </url>
 </urlset>
-
-
