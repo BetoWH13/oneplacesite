@@ -60,24 +60,6 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Rebuilding Section -->
-  <url>
-    <loc>https://one-place-site.xyz/rebuilding/</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://one-place-site.xyz/rebuilding/chiang-mai.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://one-place-site.xyz/rebuilding/detroit.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://one-place-site.xyz/rebuilding/porto.html</loc>
-    <priority>0.6</priority>
-  </url>
-
   <!-- Grieving Section -->
   <url>
     <loc>https://one-place-site.xyz/grieving/</loc>
@@ -96,21 +78,21 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Ready to Reinvent Section -->
+  <!-- Rebuilding Section -->
   <url>
-    <loc>https://one-place-site.xyz/ready-to-reinvent/</loc>
+    <loc>https://one-place-site.xyz/rebuilding/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/ready-to-reinvent/takayama.html</loc>
+    <loc>https://one-place-site.xyz/rebuilding/chiang-mai.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/ready-to-reinvent/bruny-island.html</loc>
+    <loc>https://one-place-site.xyz/rebuilding/detroit.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/ready-to-reinvent/kotor.html</loc>
+    <loc>https://one-place-site.xyz/rebuilding/porto.html</loc>
     <priority>0.6</priority>
   </url>
 
@@ -124,11 +106,29 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/on-the-brink/puebla.html</loc>
+    <loc>https://one-place-site.xyz/on-the-brink/bishkek.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/on-the-brink/bishkek.html</loc>
+    <loc>https://one-place-site.xyz/on-the-brink/puebla.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Overstimulated Section -->
+  <url>
+    <loc>https://one-place-site.xyz/overstimulated/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/overstimulated/takayama.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/overstimulated/bruny-island.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://one-place-site.xyz/overstimulated/kotor.html</loc>
     <priority>0.6</priority>
   </url>
 
