@@ -106,29 +106,29 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/on-the-brink/bishkek.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://one-place-site.xyz/on-the-brink/puebla.html</loc>
     <priority>0.6</priority>
   </url>
-
-  <!-- Overstimulated Section -->
   <url>
-    <loc>https://one-place-site.xyz/overstimulated/</loc>
+    <loc>https://one-place-site.xyz/on-the-brink/bishkek.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Experimental & Weird Section -->
+  <url>
+    <loc>https://one-place-site.xyz/experimental-weird/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/overstimulated/takayama.html</loc>
+    <loc>https://one-place-site.xyz/experimental-weird/marfa.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/overstimulated/bruny-island.html</loc>
+    <loc>https://one-place-site.xyz/experimental-weird/auroville.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://one-place-site.xyz/overstimulated/kotor.html</loc>
+    <loc>https://one-place-site.xyz/experimental-weird/chefchaouen.html</loc>
     <priority>0.6</priority>
   </url>
 
