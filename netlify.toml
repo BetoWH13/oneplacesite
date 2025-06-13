@@ -5,10 +5,9 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.viator.com https://*.viator.com; connect-src 'self' https://*.viator.com; style-src 'self' 'unsafe-inline'; frame-src https://www.viator.com; child-src https://www.viator.com;"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.viator.com https://*.viator.com https://tpemb.com; connect-src 'self' https://*.viator.com https://tpemb.com; style-src 'self' 'unsafe-inline'; frame-src https://www.viator.com https://tpemb.com; child-src https://www.viator.com https://tpemb.com;"
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "geolocation=(), microphone=(), camera=()"
-
